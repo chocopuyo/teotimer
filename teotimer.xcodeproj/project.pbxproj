@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE1F20C31A161D8A00399CBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F20C21A161D8A00399CBB /* AppDelegate.swift */; };
+		EE1F20C51A161D8A00399CBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F20C41A161D8A00399CBB /* ViewController.swift */; };
+		EE1F20C81A161D8A00399CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE1F20C61A161D8A00399CBB /* Main.storyboard */; };
+		EE1F20CA1A161D8A00399CBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1F20C91A161D8A00399CBB /* Images.xcassets */; };
+		EE1F20CD1A161D8A00399CBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1F20CB1A161D8A00399CBB /* LaunchScreen.xib */; };
+		EE1F20D91A161D8A00399CBB /* teotimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F20D81A161D8A00399CBB /* teotimerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE1F20D31A161D8A00399CBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE1F20B51A161D8A00399CBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE1F20BC1A161D8A00399CBB;
+			remoteInfo = teotimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE1F20BD1A161D8A00399CBB /* teotimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teotimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1F20C11A161D8A00399CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1F20C21A161D8A00399CBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE1F20C41A161D8A00399CBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE1F20C71A161D8A00399CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE1F20C91A161D8A00399CBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE1F20CC1A161D8A00399CBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE1F20D21A161D8A00399CBB /* teotimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teotimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1F20D71A161D8A00399CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE1F20D81A161D8A00399CBB /* teotimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teotimerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE1F20BA1A161D8A00399CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1F20CF1A161D8A00399CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE1F20B41A161D8A00399CBB = {
+			isa = PBXGroup;
+			children = (
+				EE1F20BF1A161D8A00399CBB /* teotimer */,
+				EE1F20D51A161D8A00399CBB /* teotimerTests */,
+				EE1F20BE1A161D8A00399CBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE1F20BE1A161D8A00399CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F20BD1A161D8A00399CBB /* teotimer.app */,
+				EE1F20D21A161D8A00399CBB /* teotimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE1F20BF1A161D8A00399CBB /* teotimer */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F20C21A161D8A00399CBB /* AppDelegate.swift */,
+				EE1F20C41A161D8A00399CBB /* ViewController.swift */,
+				EE1F20C61A161D8A00399CBB /* Main.storyboard */,
+				EE1F20C91A161D8A00399CBB /* Images.xcassets */,
+				EE1F20CB1A161D8A00399CBB /* LaunchScreen.xib */,
+				EE1F20C01A161D8A00399CBB /* Supporting Files */,
+			);
+			path = teotimer;
+			sourceTree = "<group>";
+		};
+		EE1F20C01A161D8A00399CBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F20C11A161D8A00399CBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE1F20D51A161D8A00399CBB /* teotimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F20D81A161D8A00399CBB /* teotimerTests.swift */,
+				EE1F20D61A161D8A00399CBB /* Supporting Files */,
+			);
+			path = teotimerTests;
+			sourceTree = "<group>";
+		};
+		EE1F20D61A161D8A00399CBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE1F20D71A161D8A00399CBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE1F20BC1A161D8A00399CBB /* teotimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1F20DC1A161D8A00399CBB /* Build configuration list for PBXNativeTarget "teotimer" */;
+			buildPhases = (
+				EE1F20B91A161D8A00399CBB /* Sources */,
+				EE1F20BA1A161D8A00399CBB /* Frameworks */,
+				EE1F20BB1A161D8A00399CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = teotimer;
+			productName = teotimer;
+			productReference = EE1F20BD1A161D8A00399CBB /* teotimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE1F20D11A161D8A00399CBB /* teotimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1F20DF1A161D8A00399CBB /* Build configuration list for PBXNativeTarget "teotimerTests" */;
+			buildPhases = (
+				EE1F20CE1A161D8A00399CBB /* Sources */,
+				EE1F20CF1A161D8A00399CBB /* Frameworks */,
+				EE1F20D01A161D8A00399CBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE1F20D41A161D8A00399CBB /* PBXTargetDependency */,
+			);
+			name = teotimerTests;
+			productName = teotimerTests;
+			productReference = EE1F20D21A161D8A00399CBB /* teotimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE1F20B51A161D8A00399CBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = chocopuyo;
+				TargetAttributes = {
+					EE1F20BC1A161D8A00399CBB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EE1F20D11A161D8A00399CBB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EE1F20BC1A161D8A00399CBB;
+					};
+				};
+			};
+			buildConfigurationList = EE1F20B81A161D8A00399CBB /* Build configuration list for PBXProject "teotimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE1F20B41A161D8A00399CBB;
+			productRefGroup = EE1F20BE1A161D8A00399CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE1F20BC1A161D8A00399CBB /* teotimer */,
+				EE1F20D11A161D8A00399CBB /* teotimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE1F20BB1A161D8A00399CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1F20C81A161D8A00399CBB /* Main.storyboard in Resources */,
+				EE1F20CD1A161D8A00399CBB /* LaunchScreen.xib in Resources */,
+				EE1F20CA1A161D8A00399CBB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1F20D01A161D8A00399CBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE1F20B91A161D8A00399CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1F20C51A161D8A00399CBB /* ViewController.swift in Sources */,
+				EE1F20C31A161D8A00399CBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1F20CE1A161D8A00399CBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1F20D91A161D8A00399CBB /* teotimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE1F20D41A161D8A00399CBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE1F20BC1A161D8A00399CBB /* teotimer */;
+			targetProxy = EE1F20D31A161D8A00399CBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE1F20C61A161D8A00399CBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1F20C71A161D8A00399CBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE1F20CB1A161D8A00399CBB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE1F20CC1A161D8A00399CBB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE1F20DA1A161D8A00399CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE1F20DB1A161D8A00399CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE1F20DD1A161D8A00399CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = teotimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE1F20DE1A161D8A00399CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = teotimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE1F20E01A161D8A00399CBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = teotimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teotimer.app/teotimer";
+			};
+			name = Debug;
+		};
+		EE1F20E11A161D8A00399CBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = teotimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teotimer.app/teotimer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE1F20B81A161D8A00399CBB /* Build configuration list for PBXProject "teotimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1F20DA1A161D8A00399CBB /* Debug */,
+				EE1F20DB1A161D8A00399CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1F20DC1A161D8A00399CBB /* Build configuration list for PBXNativeTarget "teotimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1F20DD1A161D8A00399CBB /* Debug */,
+				EE1F20DE1A161D8A00399CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE1F20DF1A161D8A00399CBB /* Build configuration list for PBXNativeTarget "teotimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1F20E01A161D8A00399CBB /* Debug */,
+				EE1F20E11A161D8A00399CBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE1F20B51A161D8A00399CBB /* Project object */;
+}
