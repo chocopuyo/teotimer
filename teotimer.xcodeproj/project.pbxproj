@@ -13,6 +13,8 @@
 		EE1F20CA1A161D8A00399CBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE1F20C91A161D8A00399CBB /* Images.xcassets */; };
 		EE1F20CD1A161D8A00399CBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE1F20CB1A161D8A00399CBB /* LaunchScreen.xib */; };
 		EE1F20D91A161D8A00399CBB /* teotimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1F20D81A161D8A00399CBB /* teotimerTests.swift */; };
+		EE5B3AEF1A165ED000A9477D /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5B3AEE1A165ED000A9477D /* mainView.swift */; };
+		EE5B3AF11A16756000A9477D /* chime.wav in Resources */ = {isa = PBXBuildFile; fileRef = EE5B3AF01A16756000A9477D /* chime.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		EE1F20D21A161D8A00399CBB /* teotimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teotimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE1F20D71A161D8A00399CBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE1F20D81A161D8A00399CBB /* teotimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teotimerTests.swift; sourceTree = "<group>"; };
+		EE5B3AEE1A165ED000A9477D /* mainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		EE5B3AF01A16756000A9477D /* chime.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = chime.wav; path = ../../../../Downloads/chime.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		EE1F20BF1A161D8A00399CBB /* teotimer */ = {
 			isa = PBXGroup;
 			children = (
+				EE5B3AF01A16756000A9477D /* chime.wav */,
 				EE1F20C21A161D8A00399CBB /* AppDelegate.swift */,
 				EE1F20C41A161D8A00399CBB /* ViewController.swift */,
+				EE5B3AEE1A165ED000A9477D /* mainView.swift */,
 				EE1F20C61A161D8A00399CBB /* Main.storyboard */,
 				EE1F20C91A161D8A00399CBB /* Images.xcassets */,
 				EE1F20CB1A161D8A00399CBB /* LaunchScreen.xib */,
@@ -195,6 +201,7 @@
 				EE1F20C81A161D8A00399CBB /* Main.storyboard in Resources */,
 				EE1F20CD1A161D8A00399CBB /* LaunchScreen.xib in Resources */,
 				EE1F20CA1A161D8A00399CBB /* Images.xcassets in Resources */,
+				EE5B3AF11A16756000A9477D /* chime.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5B3AEF1A165ED000A9477D /* mainView.swift in Sources */,
 				EE1F20C51A161D8A00399CBB /* ViewController.swift in Sources */,
 				EE1F20C31A161D8A00399CBB /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +415,7 @@
 				EE1F20DE1A161D8A00399CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE1F20DF1A161D8A00399CBB /* Build configuration list for PBXNativeTarget "teotimerTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				EE1F20E11A161D8A00399CBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

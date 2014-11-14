@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="teotimer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +15,46 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BZe-h9-5GV" customClass="mainView" customModule="teotimer" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="696" height="614"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIq-qm-wPK">
+                                        <rect key="frame" x="291" y="297" width="79" height="42"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <state key="normal" title="Start">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="touchButton:" destination="BYZ-38-t0r" eventType="touchDown" id="HTx-nF-KFu"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="SIq-qm-wPK" firstAttribute="leading" secondItem="BZe-h9-5GV" secondAttribute="leading" id="8tg-Bs-jUB"/>
+                                    <constraint firstAttribute="bottom" secondItem="SIq-qm-wPK" secondAttribute="bottom" id="PHV-8e-TVI"/>
+                                    <constraint firstAttribute="trailing" secondItem="SIq-qm-wPK" secondAttribute="trailing" id="n6I-Nc-XLd"/>
+                                    <constraint firstItem="SIq-qm-wPK" firstAttribute="top" secondItem="BZe-h9-5GV" secondAttribute="top" id="wFb-ns-ZJV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="BZe-h9-5GV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="top" id="6jU-W0-guM"/>
+                            <constraint firstAttribute="trailing" secondItem="BZe-h9-5GV" secondAttribute="trailing" id="8ES-nB-UrF"/>
+                            <constraint firstAttribute="bottom" secondItem="BZe-h9-5GV" secondAttribute="bottom" id="Brk-mI-Gal"/>
+                            <constraint firstItem="BZe-h9-5GV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CCB-KG-jMp"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mainView" destination="BZe-h9-5GV" id="nXI-6w-eKI"/>
+                        <outlet property="timerButton" destination="SIq-qm-wPK" id="9xq-xL-4fa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="461" y="457"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>
